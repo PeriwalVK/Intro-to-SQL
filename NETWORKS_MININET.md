@@ -37,7 +37,7 @@ mininet > exit # exit mininet process</pre>
 
 
 Now in original OS, execute these commands in a terminal **May be Incomplete**.
-<pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">$ ssh - X mininet@IP_ADDR # IP_ADDR obtained from ifconfig eth0 in mininet (192.168.56.101)
+<pre style="background: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;">$ ssh -X mininet@IP_ADDR # IP_ADDR obtained from ifconfig eth0 in mininet (192.168.56.101)
 $ xterm h1 # get into h1
 $ ping h2_IP # in xterm (h2_IP = 10.0.0.2)
 
